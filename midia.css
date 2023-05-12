@@ -9,16 +9,16 @@
 /*
 
 /* Tamanho de tablets */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 92px) {
     section.coluna {
-        flex: 1 1 50%
+        flex: 1 1 %
     }
 } 
 
 /* Tamanho de Ipad*/
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 92px) {
     section.coluna {
-        flex: 1 1 25%
+        flex: 1 1 %
     }
     
 }
