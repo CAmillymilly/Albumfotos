@@ -18,14 +18,14 @@ header {
 }
 
 main#album {
-    /*Rederiza os elementos*/
+    /* Rederiza os elementos*/
     display: flex;
-    /*Coloca o conteúdo da linha e não permite a quebra de linha*/
+    /* Coloca o conteúdo da linha e não permite a quebra de linha*/
     flex-flow: row wrap;
 }
 
 section.coluna {
-    /*border: 1px dashed black;*/
+    /* border: 1px dashed black;*/
     flex: 1 1 100%;
     padding: 0px 5px;
 }
@@ -33,7 +33,7 @@ section.coluna {
 section > img{
     /* Especifica a largura e a altura de uma imagem*/
     width: 100%;
-    /*indica a distância na parte inferior do conteúdo*/
+    /* indica a distância na parte inferior do conteúdo*/
     padding-bottom: 10px;
 }
 
